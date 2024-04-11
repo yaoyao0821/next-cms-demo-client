@@ -1,9 +1,9 @@
 
-export default function Menuitems() {
+export default function Pricing() {
     return (
         <>
             <div className="text-white">
-                <p> hello sub page!</p>
+                <p> hello Pricing page!</p>
             </div>
            
         </>

@@ -1,0 +1,17 @@
+.bg-white-transparent-r {
+    background-image: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0));
+}
+
+
+
+
+/* 创建带有半透明线性渐变背景的div */
+.background {
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+  }
+  
+  /* 创建带有半透明线性渐变边框的div */
+  .border {
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)) 1;
+  }

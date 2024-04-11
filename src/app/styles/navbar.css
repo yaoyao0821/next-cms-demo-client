@@ -6,6 +6,12 @@
     @apply p-2 text-gray-900 font-semibold;
 }
 
+/* @media (min-width: 50em) {
+    .navbar-dropdown {
+        --nav-right-position:50%;
+    }
+} */
+
 /* .navbar-item {
     @apply block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white;
 } */
@@ -20,4 +26,10 @@
 
 .navbar-dropdown-item {
     @apply block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white;
+}
+
+.navbar-dropdown {
+    right: -1rem;
+    /* right: var(--nav-right-position, 100px); */
+    top: 32px;
 }
