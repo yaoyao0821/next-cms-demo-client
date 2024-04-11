@@ -18,7 +18,7 @@ const Navbar = ({navList, type = 'main' }) => {
                     type == 'main' && 
                         <div className="p-4 self-start">
                             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                                <Image src="https://flowbite.com/docs/images/logo.svg" alt="Flowbite Logo"
+                                <Image src="/logo.svg" alt="Flowbite Logo"
                                     className="h-8" style={{objectFit:"contain"}}
                                     height={32} width={32}
                                     priority />
@@ -26,7 +26,6 @@ const Navbar = ({navList, type = 'main' }) => {
                             </a>            
                         </div>
                 }
-
                 <div className="w-full md:block md:w-auto" id="navbar-dropdown">
                     <ul className={`flex flex-col ${type == 'main' ? '' : 'justify-end flex-end'}
                         font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row
