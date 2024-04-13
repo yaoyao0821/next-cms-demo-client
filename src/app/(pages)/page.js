@@ -6,7 +6,6 @@ const homepageQuery = `*[_type == "homepage"] {
 
 export default async function Home() {
     const homepageInfo = (await client.fetch(homepageQuery))[0];
-    console.log('homepageInfo[0]', homepageInfo)
 
     return (
         <>
